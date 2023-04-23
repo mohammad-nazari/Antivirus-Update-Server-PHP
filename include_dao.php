@@ -1,0 +1,36 @@
+<?php
+	//include all DAO files
+	require_once('class/sql/Connection.class.php');
+	require_once('class/sql/ConnectionFactory.class.php');
+	require_once('class/sql/ConnectionProperty.class.php');
+	require_once('class/sql/QueryExecutor.class.php');
+	require_once('class/sql/Transaction.class.php');
+	require_once('class/sql/SqlQuery.class.php');
+	require_once('class/core/ArrayList.class.php');
+	require_once('class/dao/DAOFactory.class.php');
+
+	require_once('class/dao/LicenseDAO.class.php');
+	require_once('class/dto/License.class.php');
+	require_once('class/mysql/LicenseMySqlDAO.class.php');
+	require_once('class/mysql/ext/LicenseMySqlExtDAO.class.php');
+	require_once('class/dao/SessionDAO.class.php');
+	require_once('class/dto/Session.class.php');
+	require_once('class/mysql/SessionMySqlDAO.class.php');
+	require_once('class/mysql/ext/SessionMySqlExtDAO.class.php');
+	require_once('class/dao/UsersDAO.class.php');
+	require_once('class/dto/User.class.php');
+	require_once('class/mysql/UsersMySqlDAO.class.php');
+	require_once('class/mysql/ext/UsersMySqlExtDAO.class.php');
+	require_once('class/dao/VersionDAO.class.php');
+	require_once('class/dto/Version.class.php');
+	require_once('class/mysql/VersionMySqlDAO.class.php');
+	require_once('class/mysql/ext/VersionMySqlExtDAO.class.php');
+	require_once('class/dao/DbDAO.class.php');
+	require_once('class/dto/Db.class.php');
+	require_once('class/mysql/DbMySqlDAO.class.php');
+	require_once('class/mysql/ext/DbMySqlExtDAO.class.php');
+	require_once('class/dao/HmdbDAO.class.php');
+	require_once('class/dto/Hmdb.class.php');
+	require_once('class/mysql/HmdbMySqlDAO.class.php');
+	require_once('class/mysql/ext/HmdbMySqlExtDAO.class.php');
+?>

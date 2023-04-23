@@ -1,0 +1,26 @@
+{
+    "name": "chuyskywalker/phpaes",
+    "description": "PHP AES -- Accurate & Fast AES in PHP",
+    "type": "library",
+    "keywords": ["aes", "encryption", "mcrypt", "openssl"],
+    "homepage": "https://github.com/chuyskywalker/phpaes",
+    "authors": [
+        {
+            "name": "Jeff Minard",
+            "homepage": "http://jrm.cc/",
+            "role": "Developer"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-mcrypt": "*",
+        "ext-openssl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-4": { "phpaes\\": "src/" }
+    }
+}
